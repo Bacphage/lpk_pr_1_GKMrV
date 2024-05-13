@@ -27,4 +27,5 @@ def custom_calculator():
 
 if __name__ == "__main__":
     st.title("Kalkulator Pembagian Mr / Valensi (BE)")
+    st.info("Kalkulator pembagian yang digunakan untuk mencari BE")
     custom_calculator()
