@@ -28,4 +28,7 @@ def custom_calculator():
 if __name__ == "__main__":
     st.title("Kalkulator Pembagian Mr / Valensi (BE)")
     st.info("Kalkulator pembagian yang digunakan untuk mencari BE")
+
+    rumus = r"\text{BE} = \frac{Mr}{\alpha}"
+    st.latex(rumus)
     custom_calculator()
