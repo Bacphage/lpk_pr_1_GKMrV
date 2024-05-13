@@ -51,6 +51,7 @@ def check_valency(compound):
 
 def main():
     st.title("Generator Valensi Asam dan Basa")
+    st.info("Generator untuk memunculkan valensi dari senyawa asam dan basa")
 
     compound = st.text_input("Masukkan rumus senyawa:        (contoh HCl)")
     if st.button("Munculkan"):
