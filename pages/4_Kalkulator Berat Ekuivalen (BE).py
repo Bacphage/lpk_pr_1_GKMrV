@@ -18,7 +18,7 @@ def custom_calculator():
 
     if st.button("Hitung"):
         # Memastikan Valensi tidak boleh 0 untuk menghindari pembagian dengan nol
-        elif valensi == 0:
+        if valensi == 0:
             st.error("Valensi tidak boleh nol!")
         else:
             # Menghitung hasil pembagian Mr / Valensi
