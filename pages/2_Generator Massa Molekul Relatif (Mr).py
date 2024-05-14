@@ -41,10 +41,10 @@ atomic_weights = { 'H': 1.008,   'He': 4.0026,  'Li': 6.94,    'Be': 9.0122,   '
 # Fungsi untuk menghitung massa molekul relatif (Mr) dari sebuah senyawa
 def calculate_molar_mass(formula, atomic_weights):
     # Fungsi bantuan untuk menghitung massa molar relatif (Mr) dari unsur dalam sebuah senyawa
-    def calculate_molar_mass_helper(parsed_formula):
+    def calculate_molar_mass_helper(input_formula):
         molar_mass = 0
         # Looping melalui setiap unsur dalam rumus
-        for element, count_str in parsed_formula:
+        for element, count_str in input_formula:
             # Mengambil jumlah atom unsur
             count = int(count_str) if count_str else 1
             # Menambahkan massa molar unsur ke total massa molar
@@ -56,11 +56,11 @@ def calculate_molar_mass(formula, atomic_weights):
         return molar_mass
 
     # Menggunakan regex untuk memisahkan unsur dan gugus fungsional dalam rumus
-    parsed_formula = re.findall(r'([A-Z][a-z]*)(\d*)|\(([^)]+)\)(\d*)', formula)
+    input_formula = re.findall(r'([A-Z][a-z]*)(\d*)|\(([^)]+)\)(\d*)', formula)
     molar_mass = 0
 
     # Looping melalui setiap unsur atau gugus fungsional dalam rumus
-    for match in parsed_formula:
+    for match in input_formula:
         if match[0]:
             # Jika ditemukan unsur dalam rumus, hitung massa molarnya
             count = int(match[1]) if match[1] else 1
