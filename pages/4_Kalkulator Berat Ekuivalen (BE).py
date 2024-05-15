@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="🧮"
 )
 
-st.page_link("Main.py", label="Main Menu", icon="⚒️")
+st.page_link("Main.py", label="Main Menu", icon="🗜️")
 st.page_link("pages/2_Generator Massa Molekul Relatif (Mr).py", label="Generator Massa Molekul Relatif (Mr)", icon="🧪")
 st.page_link("pages/3_Generator Valensi Asam dan Basa (α).py", label="Generator Valensi Asam dan Basa (α)", icon="⚗️")
 
