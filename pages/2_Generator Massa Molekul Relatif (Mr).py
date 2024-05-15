@@ -78,6 +78,7 @@ def calculate_molar_mass(formula, atomic_weights):
 # Membuat antarmuka pengguna menggunakan Streamlit
 st.title("Generator Massa Molekul Relatif (Mr)")
 st.info("Generator untuk memunculkan Mr dari suatu senyawa")
+st.info("Pastikan masukkan rumus kimia sesuai aturan penamaan")
 formula = st.text_input("Masukkan rumus senyawa kimia (contoh: HCl)",)
 
 # Tombol untuk menghitung massa molar relatif (Mr) ketika ditekan
