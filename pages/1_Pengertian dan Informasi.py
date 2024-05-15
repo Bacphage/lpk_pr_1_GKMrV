@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="Pengertian dan Informasi",
     page_icon="📖"
 )
-st.page_link("Main.py", label="Main Menu", icon="⚒️")
+st.page_link("Main.py", label="Main Menu", icon="🗜️")
 
 st.title("Pengertian dan Informasi")
 st.markdown("Berikut adalah :orange[pengertian] dan :violet[informasi] seputar website ini.")
