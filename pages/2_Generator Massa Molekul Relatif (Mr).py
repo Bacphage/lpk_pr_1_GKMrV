@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🧪"
 )
 
-st.page_link("Main.py", label="Main Menu", icon="⚒️")
+st.page_link("Main.py", label="Main Menu", icon="🗜️")
 st.page_link("pages/3_Generator Valensi Asam dan Basa (α).py", label="Generator Valensi Asam dan Basa (α)", icon="⚗️")
 st.page_link("pages/4_Kalkulator Berat Ekuivalen (BE).py", label="Kalkulator Berat Ekuivalen (BE)", icon="🧮")
 
