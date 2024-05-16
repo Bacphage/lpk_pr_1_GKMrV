@@ -12,7 +12,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image(img, width=200)
+    st.image(img, width=200, use_column_width= "auto")
 
 with col3:
     st.write("")
