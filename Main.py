@@ -6,12 +6,13 @@ st.set_page_config(
     page_title="Generator & Kalkulator Massa Molekul Relatif & Valensi",
     page_icon="🗜️"
 )
-st.markdown("<h1 style='text-align: center; color: white;'>Generator & Kalkulator Massa Molekul Relatif & Valensi</h1>", unsafe_allow_html=True)
+
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write("")
 
 with col2:
+    st.title("Generator & Kalkulator Massa Molekul Relatif & Valensi")
     st.image(img, width=200)
 
 with col3:
