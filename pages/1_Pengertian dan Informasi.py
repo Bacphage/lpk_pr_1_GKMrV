@@ -14,18 +14,33 @@ st.header(":orange[Pengertian]", divider="gray")
 
 st.subheader(":red[Berat Ekuivalen (BE)]")
 st.markdown('''
-:red[Berat ekuivalen] adalah jumlah gram zat yang diperlukan untuk mereaksikan atau bergabung dengan satu mol elektron atau satu mol ion hidrogen. :red[Berat ekuivalen] terutama penting dalam kimia untuk menentukan jumlah relatif berbagai zat yang terlibat dalam suatu reaksi kimia. Contohnya, dalam analisis kimia, :red[berat ekuivalen] digunakan untuk menghitung jumlah substansi dalam larutan berdasarkan reaksi kimia yang terjadi. Ini juga berguna dalam titrasi, di mana :red[berat ekuivalen] digunakan untuk menghitung konsentrasi larutan yang tidak diketahui. Dalam praktiknya, :red[berat ekuivalen] dapat dihitung dengan rumus yang melibatkan berat atom atau berat molekul zat yang terlibat dalam reaksi.
+:red[Berat ekuivalen] adalah jumlah gram zat yang diperlukan untuk mereaksikan atau bergabung dengan satu mol elektron atau satu mol ion hidrogen. 
+:red[Berat ekuivalen] terutama penting dalam kimia untuk menentukan jumlah relatif berbagai zat yang terlibat dalam suatu reaksi kimia. Contohnya, 
+dalam analisis kimia, :red[berat ekuivalen] digunakan untuk menghitung jumlah substansi dalam larutan berdasarkan reaksi kimia yang terjadi. 
+Ini juga berguna dalam titrasi, di mana :red[berat ekuivalen] digunakan untuk menghitung konsentrasi larutan yang tidak diketahui. Dalam praktiknya, 
+:red[berat ekuivalen] dapat dihitung dengan rumus yang melibatkan berat atom atau berat molekul zat yang terlibat dalam reaksi.
 ''')
 
 
 st.subheader(":green[Massa Molekul Relatif (Mr)]")
 st.markdown('''
-:green[Massa molekul relatif (Mr)], juga dikenal sebagai :green[bobot molekul (BM)], adalah jumlah massa dari satu molekul suatu zat dalam satuan massa atom relatif (u) atau dalam gram per mol (g/mol). :green[Bobot molekul] diperoleh dengan menjumlahkan berat atom atau berat isotop masing-masing atom yang membentuk molekul tersebut. Ini adalah konsep penting dalam kimia karena membantu dalam menghitung jumlah partikel dalam suatu zat dan dalam menghubungkan berat zat dengan volume gas dalam hukum gas ideal. :green[Bobot molekul] juga digunakan dalam perhitungan stoikiometri untuk menentukan perbandingan antara jumlah zat yang terlibat dalam suatu reaksi kimia. Misalnya, dalam reaksi kimia, perbandingan berat-mol dapat digunakan untuk menentukan jumlah relatif reagen yang diperlukan untuk menghasilkan produk yang diinginkan.            
+:green[Massa molekul relatif (Mr)], juga dikenal sebagai :green[bobot molekul (BM)], 
+adalah jumlah massa dari satu molekul suatu zat dalam satuan massa atom relatif (u) atau dalam gram per mol (g/mol). 
+:green[Bobot molekul] diperoleh dengan menjumlahkan berat atom atau berat isotop masing-masing atom yang membentuk molekul tersebut. 
+Ini adalah konsep penting dalam kimia karena membantu dalam menghitung jumlah partikel dalam suatu zat dan dalam menghubungkan berat zat dengan volume gas dalam hukum gas ideal. 
+:green[Bobot molekul] juga digunakan dalam perhitungan stoikiometri untuk menentukan perbandingan antara jumlah zat yang terlibat dalam suatu reaksi kimia. 
+Misalnya, dalam reaksi kimia, perbandingan berat-mol dapat digunakan untuk menentukan jumlah relatif reagen yang diperlukan untuk menghasilkan produk yang diinginkan.            
 ''')
 
 st.subheader(":blue[Valensi (α)]")
 st.markdown('''
-:blue[Valensi (α)] suatu senyawa adalah jumlah atom hidrogen atau kelebihan dari satu molekul dari senyawa tersebut yang dapat bergabung dengan atau digantikan oleh atom-atom dari unsur lain. Ini mencerminkan kemampuan senyawa untuk membentuk ikatan kimia dengan unsur-unsur lain. :blue[Valensi] senyawa memberikan informasi tentang bagaimana senyawa tersebut akan bereaksi dengan unsur lain untuk membentuk senyawa baru. Misalnya, dalam air (H2O), oksigen memiliki :blue[valensi] dua karena dapat membentuk ikatan dengan dua atom hidrogen. Dalam senyawa seperti amonia (NH3), nitrogen memiliki :blue[valensi] tiga karena dapat membentuk tiga ikatan dengan atom hidrogen. Pengetahuan tentang :blue[valensi] senyawa penting dalam kimia karena membantu memahami sifat-sifat reaktif senyawa, membantu dalam meramalkan struktur molekul, dan memungkinkan pengembangan reaksi kimia yang spesifik dan efisien.
+:blue[Valensi (α)] suatu senyawa adalah jumlah atom hidrogen atau kelebihan dari satu molekul dari senyawa tersebut yang dapat bergabung dengan atau digantikan oleh atom-atom dari unsur lain. 
+Ini mencerminkan kemampuan senyawa untuk membentuk ikatan kimia dengan unsur-unsur lain. 
+:blue[Valensi] senyawa memberikan informasi tentang bagaimana senyawa tersebut akan bereaksi dengan unsur lain untuk membentuk senyawa baru. 
+Misalnya, dalam air (H2O), oksigen memiliki :blue[valensi] dua karena dapat membentuk ikatan dengan dua atom hidrogen. 
+Dalam senyawa seperti amonia (NH3), nitrogen memiliki :blue[valensi] tiga karena dapat membentuk tiga ikatan dengan atom hidrogen. 
+Pengetahuan tentang :blue[valensi] senyawa penting dalam kimia karena membantu memahami sifat-sifat reaktif senyawa, 
+membantu dalam meramalkan struktur molekul, dan memungkinkan pengembangan reaksi kimia yang spesifik dan efisien.
 ''')
 
 
@@ -67,5 +82,6 @@ st.latex(contoh_perhitungan)
 
 st.subheader("Valensi (α)")
 st.markdown("contoh HCl")
-rumus = r"\text{HCl terdiri dari satu atom H, α dari HCl adalah 1}"
+rumus = r'''\text{HCl terdiri dari satu atom H,
+α dari HCl adalah 1}'''
 st.latex(rumus)
